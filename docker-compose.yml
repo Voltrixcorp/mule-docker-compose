@@ -1,7 +1,7 @@
 version: '2'
 services:
   mule-app:
-    image: Voltrixcorp/mule-docker-compose
+    image: jonathand/mule-docker-compose
     environment:
     - MULE_APPS_ARCHIVE=https://nexus.rancher.sphinx.co.nz/repository/files/mulehelloworldexample.zip
     - MULE_APPS_DEST=mulehelloworldexample.zip
